@@ -1,0 +1,97 @@
+{
+  "version": "2",
+  "flowTitle": "Daily Unresolved Queue & Escalation Reminders",
+  "trigger": {
+    "valid": false,
+    "displayName": "Daily at 9:00 AM",
+    "type": "PIECE_TRIGGER",
+    "settings": {
+      "pieceName": "@taskade/automade-internalpiece-schedule",
+      "pieceVersion": "1.0.0",
+      "triggerName": "schedule.daily",
+      "input": {}
+    }
+  },
+  "actions": [
+    {
+      "name": "b1c2d3e4-0001-0000-0000-000000000001",
+      "valid": true,
+      "displayName": "Generate Daily Unresolved Queue Report",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "1.0.0",
+        "actionName": "ai.generate",
+        "input": {
+          "input": "Generate the daily support queue digest for today. Remind the team to: check all open tickets, prioritize high/critical items, follow up on tickets open >48 hours, review escalations with senior staff, and update all in-progress tickets with status notes.",
+          "prompt": "You are a support operations manager. Generate a concise daily morning briefing report for the support team. Format it as a clear, actionable digest with sections: 1) OPEN TICKETS summary, 2) HIGH PRIORITY items needing immediate attention, 3) ESCALATIONS requiring senior review, 4) RECOMMENDATIONS for the day. Use a professional but energizing tone to motivate the team."
+        }
+      }
+    },
+    {
+      "name": "b1c2d3e4-0002-0000-0000-000000000001",
+      "valid": false,
+      "displayName": "Create Daily Digest Task in Tickets",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "task.create",
+        "input": {
+          "fields": {
+            "@tcat": {
+              "data": {
+                "value": "general"
+              },
+              "rank": "2",
+              "fieldId": "@tcat"
+            },
+            "@tpri": {
+              "data": {
+                "value": "low"
+              },
+              "rank": "1",
+              "fieldId": "@tpri"
+            },
+            "@tstat": {
+              "data": {
+                "value": "open"
+              },
+              "rank": "0",
+              "fieldId": "@tstat"
+            }
+          },
+          "content": "📊 Daily Digest — {{ trigger[\"triggerTime\"] }}",
+          "position": "afterbegin",
+          "projectId": {
+            "type": "flow-template-variable-input-type",
+            "id": "6NuCHBAPtKyXM5pH"
+          }
+        }
+      }
+    },
+    {
+      "name": "b1c2d3e4-0003-0000-0000-000000000001",
+      "valid": true,
+      "displayName": "Generate Escalation Reminder",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "1.0.0",
+        "actionName": "ai.ask",
+        "input": {
+          "input": "Daily escalation reminder for senior support team",
+          "prompt": "Generate a brief escalation reminder message for the senior support team. Remind them to: 1) Review all active escalations in the Escalations project, 2) Ensure critical items have owner assignments, 3) Update customers with status within 2 hours, 4) Document resolution steps for future reference. Keep it professional and urgent but not alarming."
+        }
+      }
+    }
+  ],
+  "variables": {
+    "6NuCHBAPtKyXM5pH": {
+      "id": "6NuCHBAPtKyXM5pH",
+      "rank": "V",
+      "type": "string",
+      "format": "taskade-project-id"
+    }
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "version": "2",
+  "flowTitle": "Ticket Form — Route & Notify",
+  "trigger": {
+    "type": "FORM",
+    "displayName": "New Support Ticket Form",
+    "settings": {
+      "description": "",
+      "inputs": [
+        {
+          "id": "name",
+          "title": "Your Name",
+          "description": "Enter your full name",
+          "type": "short_text"
+        },
+        {
+          "id": "email",
+          "title": "Email Address",
+          "description": "We'll use this to update you on your ticket",
+          "type": "short_text",
+          "format": {
+            "type": "email"
+          }
+        },
+        {
+          "id": "subject",
+          "title": "Issue Summary",
+          "description": "Briefly describe your issue in one sentence",
+          "type": "short_text"
+        },
+        {
+          "id": "description",
+          "title": "Full Description",
+          "description": "Please describe your issue in detail — the more detail the better",
+          "type": "long_text"
+        },
+        {
+          "id": "category",
+          "title": "Category",
+          "description": "Select the category that best fits your issue",
+          "type": "static_dropdown",
+          "options": [
+            {
+              "id": "billing",
+              "type": "text",
+              "value": "billing"
+            },
+            {
+              "id": "technical",
+              "type": "text",
+              "value": "technical"
+            },
+            {
+              "id": "account",
+              "type": "text",
+              "value": "account"
+            },
+            {
+              "id": "general",
+              "type": "text",
+              "value": "general"
+            },
+            {
+              "id": "shipping",
+              "type": "text",
+              "value": "shipping"
+            }
+          ]
+        }
+      ],
+      "isEndPageEnabled": false
+    }
+  },
+  "actions": [
+    {
+      "name": "a1b2c3d4-0001-0000-0000-000000000001",
+      "valid": true,
+      "displayName": "AI Triage — Assess Priority & Category",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "1.0.0",
+        "actionName": "ai.ask",
+        "input": {
+          "input": "Category: {{ trigger[\"category\"] }}\nSubject: {{ trigger[\"subject\"] }}\nDescription: {{ trigger[\"description\"] }}",
+          "prompt": "You are a support ticket triage system. Analyze this support ticket and respond with ONLY a JSON object in this exact format: {\"priority\": \"low|medium|high|critical\", \"summary\": \"one sentence summary\", \"suggested_resolution\": \"brief resolution hint\"}. Priority rules: critical=data loss/security/billing errors/enterprise; high=cannot access account/duplicate charges; medium=performance issues/refunds; low=general questions/how-to."
+        }
+      }
+    },
+    {
+      "name": "a1b2c3d4-0002-0000-0000-000000000001",
+      "valid": false,
+      "displayName": "Create Ticket in Project",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-taskade",
+        "pieceVersion": "1.0.0",
+        "actionName": "task.create",
+        "input": {
+          "fields": {
+            "@tcat": {
+              "data": {
+                "value": "{{ trigger[\"category\"] }}"
+              },
+              "rank": "3",
+              "fieldId": "@tcat"
+            },
+            "@tpri": {
+              "data": {
+                "value": "medium"
+              },
+              "rank": "1",
+              "fieldId": "@tpri"
+            },
+            "@tstat": {
+              "data": {
+                "value": "open"
+              },
+              "rank": "0",
+              "fieldId": "@tstat"
+            },
+            "@temail": {
+              "data": {
+                "value": "{{ trigger[\"email\"] }}"
+              },
+              "rank": "2",
+              "fieldId": "@temail"
+            }
+          },
+          "content": "{{ trigger[\"subject\"] }} — {{ trigger[\"name\"] }}",
+          "position": "afterbegin",
+          "projectId": {
+            "type": "flow-template-variable-input-type",
+            "id": "6NuCHBAPtKyXM5pH"
+          }
+        }
+      }
+    },
+    {
+      "name": "a1b2c3d4-0003-0000-0000-000000000001",
+      "valid": true,
+      "displayName": "AI Draft Acknowledgment Reply",
+      "type": "PIECE",
+      "settings": {
+        "pieceName": "@taskade/automade-internalpiece-openai",
+        "pieceVersion": "1.0.0",
+        "actionName": "ai.respond",
+        "input": {
+          "input": "Customer Name: {{ trigger[\"name\"] }}\nEmail: {{ trigger[\"email\"] }}\nIssue: {{ trigger[\"subject\"] }}\nCategory: {{ trigger[\"category\"] }}\nAI Triage: {{ a1b2c3d4-0001-0000-0000-000000000001[\"result\"] }}",
+          "prompt": "You are a helpful support agent. Write a warm, professional acknowledgment email for a support ticket. Include: 1) Thank them for reaching out, 2) Confirm receipt of their ticket, 3) Give expected response time (24h for general, 4h for high priority), 4) Provide ticket reference (use their email). Keep it concise and reassuring."
+        }
+      }
+    }
+  ],
+  "variables": {
+    "6NuCHBAPtKyXM5pH": {
+      "id": "6NuCHBAPtKyXM5pH",
+      "rank": "V",
+      "type": "string",
+      "format": "taskade-project-id"
+    }
+  }
+}

@@ -1,0 +1,1006 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "a3000000-0000-0000-0000-000000000001",
+        "text": {
+          "ops": [
+            {
+              "insert": "Resolutions"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "0d091cfe-6e79-4d69-82e2-9989352e82fb",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Billing Dispute — Duplicate Charge Resolution",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "bullet",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@rcat": {
+                "type": "Select",
+                "optionId": "billing"
+              },
+              "@reff": {
+                "type": "Select",
+                "optionId": "proven"
+              },
+              "@rtime": 15
+            },
+            "children": [
+              {
+                "type": "text",
+                "id": "8ba92ab5-9d6e-4300-8c1d-5528f0d6a6d1",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Step 1: Verify charge in payment processor. Step 2: If duplicate confirmed, issue immediate refund. Step 3: Send apology email with refund confirmation. Step 4: Flag account for billing team review. Step 5: Close ticket with resolution note.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "c5f5e806-21f2-4ad5-be77-45d49761044b",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Account Locked / Cannot Login Resolution",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "bullet",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@rcat": {
+                "type": "Select",
+                "optionId": "account"
+              },
+              "@reff": {
+                "type": "Select",
+                "optionId": "proven"
+              },
+              "@rtime": 10
+            },
+            "children": [
+              {
+                "type": "text",
+                "id": "bd223992-a424-46a4-a7d9-2a69f55f92c4",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Step 1: Verify identity via email + last 4 of payment card. Step 2: Check account status in admin panel. Step 3: If locked due to failed attempts, manually unlock. Step 4: Send password reset email. Step 5: Advise on security best practices.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "a2c8fe4f-1cde-4357-8c0a-e0f9170e0242",
+            "text": {
+              "ops": [
+                {
+                  "insert": "App Performance Issue / Slow Loading Resolution",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "bullet",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@rcat": {
+                "type": "Select",
+                "optionId": "technical"
+              },
+              "@reff": {
+                "type": "Select",
+                "optionId": "proven"
+              },
+              "@rtime": 20
+            },
+            "children": [
+              {
+                "type": "text",
+                "id": "5928a15f-7661-48ca-93ab-da79186bad3f",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Step 1: Ask user for browser, OS, and internet speed. Step 2: Check system status page for outages. Step 3: Guide through cache clear and hard refresh. Step 4: Test in incognito mode. Step 5: If persistent, collect HAR file and escalate to engineering.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "3f07d79c-593f-4756-a98e-71f16f0a7ba2",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Refund Request Resolution",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "bullet",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@rcat": {
+                "type": "Select",
+                "optionId": "billing"
+              },
+              "@reff": {
+                "type": "Select",
+                "optionId": "proven"
+              },
+              "@rtime": 12
+            },
+            "children": [
+              {
+                "type": "text",
+                "id": "e288b883-b8af-442f-91b3-dd379df68c87",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Step 1: Check purchase date against 14-day refund policy. Step 2: Verify subscription plan and usage. Step 3: Within policy: process full refund. After policy: offer prorated credit. Step 4: Send refund confirmation (3-5 business days). Step 5: Ask for cancellation reason for product feedback.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "59b2956b-1b77-416b-9cce-23d934a892d1",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Data Export Failure Resolution",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "bullet",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@rcat": {
+                "type": "Select",
+                "optionId": "technical"
+              },
+              "@reff": {
+                "type": "Select",
+                "optionId": "proven"
+              },
+              "@rtime": 30
+            },
+            "children": [
+              {
+                "type": "text",
+                "id": "93138d63-000a-4b59-b838-8ba8b40268d9",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Step 1: Confirm the export job ID from user. Step 2: Check export queue in admin panel for errors. Step 3: If failed: manually trigger re-export. Step 4: If data size too large: segment and export in batches. Step 5: Send download link directly to user email.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fields": {
+      "@rcat": {
+        "displayName": "Category",
+        "type": "Select",
+        "options": {
+          "billing": {
+            "id": "billing",
+            "name": "Billing",
+            "rank": "0",
+            "color": "#6366f1"
+          },
+          "technical": {
+            "id": "technical",
+            "name": "Technical",
+            "rank": "1",
+            "color": "#0ea5e9"
+          },
+          "account": {
+            "id": "account",
+            "name": "Account",
+            "rank": "2",
+            "color": "#10b981"
+          },
+          "general": {
+            "id": "general",
+            "name": "General",
+            "rank": "3",
+            "color": "#f59e0b"
+          },
+          "shipping": {
+            "id": "shipping",
+            "name": "Shipping",
+            "rank": "4",
+            "color": "#f97316"
+          }
+        }
+      },
+      "@reff": {
+        "displayName": "Effectiveness",
+        "type": "Select",
+        "options": {
+          "proven": {
+            "id": "proven",
+            "name": "Proven",
+            "rank": "0",
+            "color": "#10b981"
+          },
+          "experimental": {
+            "id": "experimental",
+            "name": "Experimental",
+            "rank": "1",
+            "color": "#f59e0b"
+          },
+          "deprecated": {
+            "id": "deprecated",
+            "name": "Deprecated",
+            "rank": "2",
+            "color": "#6b7280"
+          }
+        }
+      },
+      "@rtime": {
+        "displayName": "Avg Resolution Time (min)",
+        "type": "number",
+        "render": {
+          "type": "text"
+        },
+        "format": {
+          "type": "decimal"
+        }
+      }
+    },
+    "views": {
+      "list": {
+        "id": "list",
+        "type": "list",
+        "rank": "A",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@rcat": {
+            "id": "/attributes/@rcat",
+            "fieldPath": "/attributes/@rcat",
+            "rank": "z"
+          },
+          "/attributes/@reff": {
+            "id": "/attributes/@reff",
+            "fieldPath": "/attributes/@reff",
+            "rank": "zV"
+          },
+          "/attributes/@rtime": {
+            "id": "/attributes/@rtime",
+            "fieldPath": "/attributes/@rtime",
+            "rank": "zk"
+          }
+        }
+      },
+      "board": {
+        "id": "board",
+        "type": "board",
+        "rank": "B",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@rcat": {
+            "id": "/attributes/@rcat",
+            "fieldPath": "/attributes/@rcat",
+            "rank": "z"
+          },
+          "/attributes/@reff": {
+            "id": "/attributes/@reff",
+            "fieldPath": "/attributes/@reff",
+            "rank": "zV"
+          },
+          "/attributes/@rtime": {
+            "id": "/attributes/@rtime",
+            "fieldPath": "/attributes/@rtime",
+            "rank": "zk"
+          }
+        }
+      },
+      "mindmap": {
+        "id": "mindmap",
+        "type": "mindmap",
+        "rank": "D",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@rcat": {
+            "id": "/attributes/@rcat",
+            "fieldPath": "/attributes/@rcat",
+            "rank": "z"
+          },
+          "/attributes/@reff": {
+            "id": "/attributes/@reff",
+            "fieldPath": "/attributes/@reff",
+            "rank": "zV"
+          },
+          "/attributes/@rtime": {
+            "id": "/attributes/@rtime",
+            "fieldPath": "/attributes/@rtime",
+            "rank": "zk"
+          }
+        }
+      },
+      "orgchart": {
+        "id": "orgchart",
+        "type": "orgchart",
+        "rank": "E",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@rcat": {
+            "id": "/attributes/@rcat",
+            "fieldPath": "/attributes/@rcat",
+            "rank": "z"
+          },
+          "/attributes/@reff": {
+            "id": "/attributes/@reff",
+            "fieldPath": "/attributes/@reff",
+            "rank": "zV"
+          },
+          "/attributes/@rtime": {
+            "id": "/attributes/@rtime",
+            "fieldPath": "/attributes/@rtime",
+            "rank": "zk"
+          }
+        }
+      },
+      "gantt": {
+        "id": "gantt",
+        "type": "gantt",
+        "rank": "F",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@rcat": {
+            "id": "/attributes/@rcat",
+            "fieldPath": "/attributes/@rcat",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@reff": {
+            "id": "/attributes/@reff",
+            "fieldPath": "/attributes/@reff",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@rtime": {
+            "id": "/attributes/@rtime",
+            "fieldPath": "/attributes/@rtime",
+            "rank": "zk",
+            "hidden": false
+          }
+        }
+      },
+      "table": {
+        "id": "table",
+        "type": "table",
+        "rank": "V",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@rcat": {
+            "id": "/attributes/@rcat",
+            "fieldPath": "/attributes/@rcat",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@reff": {
+            "id": "/attributes/@reff",
+            "fieldPath": "/attributes/@reff",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@rtime": {
+            "id": "/attributes/@rtime",
+            "fieldPath": "/attributes/@rtime",
+            "rank": "zk",
+            "hidden": false
+          }
+        }
+      }
+    }
+  },
+  "preferences": {
+    "defaultView": "list",
+    "avatar": {
+      "type": "emoji",
+      "value": "📋"
+    }
+  }
+}

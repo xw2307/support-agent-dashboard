@@ -1,0 +1,1080 @@
+{
+  "root": {
+    "type": "root",
+    "children": [
+      {
+        "type": "text",
+        "id": "a2000000-0000-0000-0000-000000000001",
+        "text": {
+          "ops": [
+            {
+              "insert": "Tickets"
+            },
+            {
+              "insert": "\n",
+              "attributes": {
+                "paragraph": true
+              }
+            }
+          ]
+        },
+        "format": null,
+        "collapsed": false,
+        "completed": false,
+        "children": [
+          {
+            "type": "text",
+            "id": "6f635c71-a2d8-4dd7-8fd7-5eed2fc9aeae",
+            "text": {
+              "ops": [
+                {
+                  "insert": "📊 Daily Digest — 2026-03-30T09:00:00.000+08:00[Asia/Singapore]"
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@tstat": {
+                "type": "Select",
+                "optionId": "open"
+              },
+              "@tpri": {
+                "type": "Select",
+                "optionId": "low"
+              },
+              "@tcat": {
+                "type": "Select",
+                "optionId": "general"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "69c2fa4b-1241-4302-914c-93215728a1c8",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Cannot log in after password change",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@tstat": {
+                "type": "Select",
+                "optionId": "open"
+              },
+              "@tpri": {
+                "type": "Select",
+                "optionId": "high"
+              },
+              "@temail": "sarah.johnson@email.com",
+              "@tcat": {
+                "type": "Select",
+                "optionId": "account"
+              }
+            },
+            "children": [
+              {
+                "type": "text",
+                "id": "9a027047-12f5-4896-873e-9109b5e3a5a1",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "User changed password and now cannot log in. Reset email not arriving. Account shows active in admin.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "5d156eb1-2018-468a-9fa0-2f6793a84813",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Charged twice for March subscription",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@tstat": {
+                "type": "Select",
+                "optionId": "in_progress"
+              },
+              "@tpri": {
+                "type": "Select",
+                "optionId": "high"
+              },
+              "@temail": "mike.chen@company.io",
+              "@tcat": {
+                "type": "Select",
+                "optionId": "billing"
+              }
+            },
+            "children": [
+              {
+                "type": "text",
+                "id": "0f0de169-67e3-4758-96f9-1ae5dcf5b101",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Customer shows two charges of $49.99 on March 3rd. Both appear settled in bank. Needs urgent refund.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "id": "400ee878-a47a-483a-baf0-de48b5baf6e6",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Dashboard very slow to load",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@tstat": {
+                "type": "Select",
+                "optionId": "open"
+              },
+              "@tpri": {
+                "type": "Select",
+                "optionId": "medium"
+              },
+              "@temail": "priya.patel@startup.co",
+              "@tcat": {
+                "type": "Select",
+                "optionId": "technical"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "2c3197f2-1dd6-4b22-9eb2-7276204b8fd5",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Request refund — not satisfied with product",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@tstat": {
+                "type": "Select",
+                "optionId": "resolved"
+              },
+              "@tpri": {
+                "type": "Select",
+                "optionId": "medium"
+              },
+              "@temail": "alex.morgan@gmail.com",
+              "@tcat": {
+                "type": "Select",
+                "optionId": "billing"
+              }
+            },
+            "children": []
+          },
+          {
+            "type": "text",
+            "id": "abde67e5-c9e7-4c22-b231-9ea6d187300f",
+            "text": {
+              "ops": [
+                {
+                  "insert": "Data export button not working",
+                  "attributes": {}
+                },
+                {
+                  "insert": "\n",
+                  "attributes": {
+                    "paragraph": true
+                  }
+                }
+              ]
+            },
+            "format": {
+              "node": "checkbox",
+              "children": null
+            },
+            "collapsed": false,
+            "completed": false,
+            "attributes": {
+              "@tstat": {
+                "type": "Select",
+                "optionId": "escalated"
+              },
+              "@tpri": {
+                "type": "Select",
+                "optionId": "critical"
+              },
+              "@temail": "cto@enterprise-corp.com",
+              "@tcat": {
+                "type": "Select",
+                "optionId": "technical"
+              }
+            },
+            "children": [
+              {
+                "type": "text",
+                "id": "6d28f134-a2ce-48ea-bf86-ec1a136ee407",
+                "text": {
+                  "ops": [
+                    {
+                      "insert": "Enterprise client. Export fails silently for datasets > 50k rows. Blocking compliance deadline.",
+                      "attributes": {}
+                    },
+                    {
+                      "insert": "\n",
+                      "attributes": {
+                        "paragraph": true
+                      }
+                    }
+                  ]
+                },
+                "format": {
+                  "node": "text",
+                  "children": null
+                },
+                "collapsed": false,
+                "completed": false,
+                "children": []
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "fields": {
+      "@tstat": {
+        "displayName": "Status",
+        "type": "Select",
+        "options": {
+          "open": {
+            "id": "open",
+            "name": "Open",
+            "rank": "0",
+            "color": "#3b82f6"
+          },
+          "in_progress": {
+            "id": "in_progress",
+            "name": "In Progress",
+            "rank": "1",
+            "color": "#f59e0b"
+          },
+          "resolved": {
+            "id": "resolved",
+            "name": "Resolved",
+            "rank": "2",
+            "color": "#10b981"
+          },
+          "escalated": {
+            "id": "escalated",
+            "name": "Escalated",
+            "rank": "3",
+            "color": "#ef4444"
+          },
+          "closed": {
+            "id": "closed",
+            "name": "Closed",
+            "rank": "4",
+            "color": "#6b7280"
+          }
+        }
+      },
+      "@tpri": {
+        "displayName": "Priority",
+        "type": "Select",
+        "options": {
+          "low": {
+            "id": "low",
+            "name": "Low",
+            "rank": "0",
+            "color": "#10b981"
+          },
+          "medium": {
+            "id": "medium",
+            "name": "Medium",
+            "rank": "1",
+            "color": "#f59e0b"
+          },
+          "high": {
+            "id": "high",
+            "name": "High",
+            "rank": "2",
+            "color": "#ef4444"
+          },
+          "critical": {
+            "id": "critical",
+            "name": "Critical",
+            "rank": "3",
+            "color": "#7c3aed"
+          }
+        }
+      },
+      "@temail": {
+        "displayName": "Customer Email",
+        "type": "string"
+      },
+      "@tcat": {
+        "displayName": "Category",
+        "type": "Select",
+        "options": {
+          "billing": {
+            "id": "billing",
+            "name": "Billing",
+            "rank": "0",
+            "color": "#6366f1"
+          },
+          "technical": {
+            "id": "technical",
+            "name": "Technical",
+            "rank": "1",
+            "color": "#0ea5e9"
+          },
+          "account": {
+            "id": "account",
+            "name": "Account",
+            "rank": "2",
+            "color": "#10b981"
+          },
+          "general": {
+            "id": "general",
+            "name": "General",
+            "rank": "3",
+            "color": "#f59e0b"
+          },
+          "shipping": {
+            "id": "shipping",
+            "name": "Shipping",
+            "rank": "4",
+            "color": "#f97316"
+          }
+        }
+      }
+    },
+    "views": {
+      "list": {
+        "id": "list",
+        "type": "list",
+        "rank": "A",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@tstat": {
+            "id": "/attributes/@tstat",
+            "fieldPath": "/attributes/@tstat",
+            "rank": "z"
+          },
+          "/attributes/@tpri": {
+            "id": "/attributes/@tpri",
+            "fieldPath": "/attributes/@tpri",
+            "rank": "zV"
+          },
+          "/attributes/@temail": {
+            "id": "/attributes/@temail",
+            "fieldPath": "/attributes/@temail",
+            "rank": "zk"
+          },
+          "/attributes/@tcat": {
+            "id": "/attributes/@tcat",
+            "fieldPath": "/attributes/@tcat",
+            "rank": "zs"
+          }
+        }
+      },
+      "board": {
+        "id": "board",
+        "type": "board",
+        "rank": "B",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@tstat": {
+            "id": "/attributes/@tstat",
+            "fieldPath": "/attributes/@tstat",
+            "rank": "z"
+          },
+          "/attributes/@tpri": {
+            "id": "/attributes/@tpri",
+            "fieldPath": "/attributes/@tpri",
+            "rank": "zV"
+          },
+          "/attributes/@temail": {
+            "id": "/attributes/@temail",
+            "fieldPath": "/attributes/@temail",
+            "rank": "zk"
+          },
+          "/attributes/@tcat": {
+            "id": "/attributes/@tcat",
+            "fieldPath": "/attributes/@tcat",
+            "rank": "zs"
+          }
+        }
+      },
+      "mindmap": {
+        "id": "mindmap",
+        "type": "mindmap",
+        "rank": "D",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@tstat": {
+            "id": "/attributes/@tstat",
+            "fieldPath": "/attributes/@tstat",
+            "rank": "z"
+          },
+          "/attributes/@tpri": {
+            "id": "/attributes/@tpri",
+            "fieldPath": "/attributes/@tpri",
+            "rank": "zV"
+          },
+          "/attributes/@temail": {
+            "id": "/attributes/@temail",
+            "fieldPath": "/attributes/@temail",
+            "rank": "zk"
+          },
+          "/attributes/@tcat": {
+            "id": "/attributes/@tcat",
+            "fieldPath": "/attributes/@tcat",
+            "rank": "zs"
+          }
+        }
+      },
+      "orgchart": {
+        "id": "orgchart",
+        "type": "orgchart",
+        "rank": "E",
+        "displayedFields": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7"
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A"
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F"
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N"
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V"
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c"
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k"
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s"
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t"
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u"
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF"
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF"
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x"
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y"
+          },
+          "/attributes/@tstat": {
+            "id": "/attributes/@tstat",
+            "fieldPath": "/attributes/@tstat",
+            "rank": "z"
+          },
+          "/attributes/@tpri": {
+            "id": "/attributes/@tpri",
+            "fieldPath": "/attributes/@tpri",
+            "rank": "zV"
+          },
+          "/attributes/@temail": {
+            "id": "/attributes/@temail",
+            "fieldPath": "/attributes/@temail",
+            "rank": "zk"
+          },
+          "/attributes/@tcat": {
+            "id": "/attributes/@tcat",
+            "fieldPath": "/attributes/@tcat",
+            "rank": "zs"
+          }
+        }
+      },
+      "gantt": {
+        "id": "gantt",
+        "type": "gantt",
+        "rank": "F",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@tstat": {
+            "id": "/attributes/@tstat",
+            "fieldPath": "/attributes/@tstat",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@tpri": {
+            "id": "/attributes/@tpri",
+            "fieldPath": "/attributes/@tpri",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@temail": {
+            "id": "/attributes/@temail",
+            "fieldPath": "/attributes/@temail",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@tcat": {
+            "id": "/attributes/@tcat",
+            "fieldPath": "/attributes/@tcat",
+            "rank": "zs",
+            "hidden": false
+          }
+        }
+      },
+      "table": {
+        "id": "table",
+        "type": "table",
+        "rank": "V",
+        "columns": {
+          "/text": {
+            "id": "/text",
+            "fieldPath": "/text",
+            "rank": "7",
+            "width": 480
+          },
+          "/attributes/agent": {
+            "id": "/attributes/agent",
+            "fieldPath": "/attributes/agent",
+            "rank": "A",
+            "hidden": true
+          },
+          "/attributes/date": {
+            "id": "/attributes/date",
+            "fieldPath": "/attributes/date",
+            "rank": "F",
+            "hidden": true
+          },
+          "/attributes/assignee": {
+            "id": "/attributes/assignee",
+            "fieldPath": "/attributes/assignee",
+            "rank": "N",
+            "hidden": true
+          },
+          "/attributes/comment": {
+            "id": "/attributes/comment",
+            "fieldPath": "/attributes/comment",
+            "rank": "V",
+            "hidden": true
+          },
+          "/attributes/reaction": {
+            "id": "/attributes/reaction",
+            "fieldPath": "/attributes/reaction",
+            "rank": "c",
+            "hidden": true
+          },
+          "/attributes/timer": {
+            "id": "/attributes/timer",
+            "fieldPath": "/attributes/timer",
+            "rank": "k",
+            "hidden": true
+          },
+          "/attributes/media": {
+            "id": "/attributes/media",
+            "fieldPath": "/attributes/media",
+            "rank": "s",
+            "hidden": true
+          },
+          "/attributes/created/at": {
+            "id": "/attributes/created/at",
+            "fieldPath": "/attributes/created/at",
+            "rank": "t",
+            "hidden": true
+          },
+          "/attributes/created/by": {
+            "id": "/attributes/created/by",
+            "fieldPath": "/attributes/created/by",
+            "rank": "u",
+            "hidden": true
+          },
+          "/attributes/updated/at": {
+            "id": "/attributes/updated/at",
+            "fieldPath": "/attributes/updated/at",
+            "rank": "vF",
+            "hidden": true
+          },
+          "/attributes/updated/by": {
+            "id": "/attributes/updated/by",
+            "fieldPath": "/attributes/updated/by",
+            "rank": "wF",
+            "hidden": true
+          },
+          "/attributes/completed/at": {
+            "id": "/attributes/completed/at",
+            "fieldPath": "/attributes/completed/at",
+            "rank": "x",
+            "hidden": true
+          },
+          "/attributes/completed/by": {
+            "id": "/attributes/completed/by",
+            "fieldPath": "/attributes/completed/by",
+            "rank": "y",
+            "hidden": true
+          },
+          "/attributes/@tstat": {
+            "id": "/attributes/@tstat",
+            "fieldPath": "/attributes/@tstat",
+            "rank": "z",
+            "hidden": false
+          },
+          "/attributes/@tpri": {
+            "id": "/attributes/@tpri",
+            "fieldPath": "/attributes/@tpri",
+            "rank": "zV",
+            "hidden": false
+          },
+          "/attributes/@temail": {
+            "id": "/attributes/@temail",
+            "fieldPath": "/attributes/@temail",
+            "rank": "zk",
+            "hidden": false
+          },
+          "/attributes/@tcat": {
+            "id": "/attributes/@tcat",
+            "fieldPath": "/attributes/@tcat",
+            "rank": "zs",
+            "hidden": false
+          }
+        }
+      }
+    }
+  },
+  "preferences": {
+    "defaultView": "board",
+    "avatar": {
+      "type": "emoji",
+      "value": "✅"
+    }
+  }
+}
